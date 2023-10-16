@@ -7,6 +7,7 @@ public class subarray_pair {
             for(int j=i ;j<array.length ;j++){
                 System.out.print("("+array[i]);
                 sum = sum + array[i] ;
+                max = array[i] ;
                 for(int k=i+1 ;k<=j ;k++){
                     System.out.print(","+array[k]) ;
                     sum = sum + array[k] ;
